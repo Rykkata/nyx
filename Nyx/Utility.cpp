@@ -5,7 +5,8 @@ namespace util
 	bool fexists(const char *filename)
 	{
 		 ifstream ifile(filename);
-		 return ifile;
+
+		 return (bool)ifile;
 	}
 
 	sf::Sprite& ScaleImage(sf::Sprite& scaleSprite)

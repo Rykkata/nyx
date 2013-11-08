@@ -1,11 +1,39 @@
-﻿Build started 10/20/2013 3:55:23 PM.
-     1>Project "C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Nyx.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/7/2013 5:13:15 PM.
+     1>Project "C:\Users\Nicholas\Documents\GitHub\nyx\Nyx\Nyx.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /IC:\dev\steamworkssdk\public\steam /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt UnmoveableObject.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /IC:\dev\steamworkssdk\public\steam /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet Enemy.cpp Entity.cpp EntityManager.cpp iniFile.cpp Main.cpp Nyx.cpp UnmoveableObject.cpp World.cpp Player.cpp Utility.cpp Xbox360.cpp
+         Xbox360.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(27): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(32): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(37): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(42): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(52): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(57): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\xbox360.cpp(62): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Utility.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Player.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         World.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
          UnmoveableObject.cpp
-     1>c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Nyx.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Main.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         iniFile.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         EntityManager.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Entity.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Enemy.cpp
+     1>c:\users\nicholas\documents\github\nyx\nyx\inifile.h(111): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Running Code Analysis for C/C++...
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" /LIBPATH:C:\dev\steamworkssdk\redistributable_bin "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" steam_api.lib "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.lib" /MACHINE:X86 Debug\Enemy.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nicholas\Documents\GitHub\nyx\Debug\Nyx.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" /LIBPATH:C:\dev\steamworkssdk\redistributable_bin "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" steam_api.lib "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nicholas\Documents\GitHub\nyx\Debug\Nyx.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nicholas\Documents\GitHub\nyx\Debug\Nyx.lib" /MACHINE:X86 Debug\Enemy.obj
          Debug\Entity.obj
          Debug\EntityManager.obj
          Debug\iniFile.obj
@@ -16,9 +44,9 @@
          Debug\Player.obj
          Debug\Utility.obj
          Debug\Xbox360.obj
-         Nyx.vcxproj -> C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.exe
-     1>Done Building Project "C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Nyx.vcxproj" (Build target(s)).
+         Nyx.vcxproj -> C:\Users\Nicholas\Documents\GitHub\nyx\Debug\Nyx.exe
+     1>Done Building Project "C:\Users\Nicholas\Documents\GitHub\nyx\Nyx\Nyx.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:01:16.98

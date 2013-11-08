@@ -1,39 +1,78 @@
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\ENEMY.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\ENTITY.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\ENTITYMANAGER.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\INIFILE.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\MAIN.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\NYX.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\WORLD.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\PLAYER.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\UTILITY.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\XBOX360.OBJ
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\NYX\DEBUG\VC110.PDB
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\DEBUG\NYX.ILK
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\DEBUG\NYX.EXE
-C:\USERS\NICHOLAS\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\NYX\DEBUG\NYX.PDB
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Enemy.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Entity.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\EntityManager.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\iniFile.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Main.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Nyx.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Player.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Utility.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\World.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\Xbox360.obj
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\cl.command.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\CL.read.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\CL.write.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link-cvtres.read.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link-cvtres.write.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link-rc.read.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link-rc.write.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link.command.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link.read.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\link.write.1.tlog
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\vc110.idb
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Nyx\Debug\vc110.pdb
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.pdb
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.exe
-C:\Users\Nicholas\Documents\Visual Studio 2012\Projects\Nyx\Debug\Nyx.ilk
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\enemy.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\enemy.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\vc110.pdb
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\entity.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\entity.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\entitymanager.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\entitymanager.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\inifile.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\inifile.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\main.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\nyx.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\world.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\world.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\player.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\player.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\utility.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\utility.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\xbox360.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\xbox360.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\main.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\nyx.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\debug\unmoveableobject.obj
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\debug\nyx.ilk
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\debug\nyx.exe
+c:\users\nicholas\documents\visual studio 2012\projects\nyx\debug\nyx.pdb
+c:\users\nicholas\documents\github\nyx\nyx\debug\vc120.pdb
+c:\users\nicholas\documents\github\nyx\nyx\debug\vc120.idb
+c:\users\nicholas\documents\github\nyx\nyx\debug\enemy.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\entity.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\entitymanager.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\inifile.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\main.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\unmoveableobject.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\world.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\player.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\xbox360.obj
+c:\users\nicholas\documents\github\nyx\nyx\debug\utility.obj
+c:\users\nicholas\documents\github\nyx\debug\nyx.ilk
+c:\users\nicholas\documents\github\nyx\debug\nyx.exe
+c:\users\nicholas\documents\github\nyx\debug\nyx.pdb
+c:\users\nicholas\documents\github\nyx\nyx\debug\cl.command.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\cl.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\cl.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link-cvtres.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link-cvtres.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link-rc.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link-rc.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980-cvtres.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980-cvtres.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980-rc.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980-rc.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.980.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.command.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\link.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nativecodeanalysis.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\vc110.idb
+c:\users\nicholas\documents\github\nyx\nyx\debug\vc110.pdb
+c:\users\nicholas\documents\github\nyx\nyx\debug\enemy.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\entity.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\entitymanager.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\inifile.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\main.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\player.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\utility.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\vc.nativecodeanalysis.all.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\world.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\nyx\debug\xbox360.cpp.nativecodeanalysis.xml
+c:\users\nicholas\documents\github\nyx\debug\nyx.exe.lastcodeanalysissucceeded
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\cl.command.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\cl.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\cl.write.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\link.command.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\link.read.1.tlog
+c:\users\nicholas\documents\github\nyx\nyx\debug\nyx.tlog\link.write.1.tlog

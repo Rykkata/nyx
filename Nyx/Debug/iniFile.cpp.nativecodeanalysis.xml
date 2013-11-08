@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\nicholas\documents\visual studio 2012\projects\nyx\nyx\</FILEPATH><FILENAME>inifile.cpp</FILENAME><LINE>66</LINE><COLUMN>19</COLUMN></SFA><DEFECTCODE>6330</DEFECTCODE><DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isprint'.</DESCRIPTION><FUNCTION>CIniFile::ReadFile</FUNCTION><DECORATED>?ReadFile@CIniFile@@QAE_NXZ</DECORATED><FUNCLINE>41</FUNCLINE><PATH/></DEFECT></DEFECTS>
