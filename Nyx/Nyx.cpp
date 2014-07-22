@@ -1,8 +1,11 @@
 #include "Nyx.h"
+#include "Constant.h"
+#include <iostream>
 
 unsigned int screenWidth;
 unsigned int screenHeight;
 
+using namespace std;
 
 Nyx& Nyx::GetInstance(void)
 {
@@ -97,20 +100,16 @@ void Nyx::init()
 	fullScreens = sf::VideoMode::getFullscreenModes();
 
 	// Initialize the SteamAPI (WILL NOT WORK FOR NOW)
-	if(!SteamAPI_Init())
+	/**if(!SteamAPI_Init())
 	{
 		cout << "SteapAPI failed to initialize" << endl;
-	}
+	}*/
 
 	// Read in the information
 	iniFile->ReadFile();
 
 	curWorld = new World(BACKGROUND_PATH);
 	
-	// Create the main player
-	player = new Player(0, PLAYER_STARTX, PLAYER_STARTY, PLAYER_PATH);
-	EntityMgr.AddEntity(player);
-
 	tick = tick.Zero;
 
 	// Read in the window information
@@ -118,12 +117,16 @@ void Nyx::init()
 	screenHeight = iniFile->GetValueI("Graphics", "ScreenHeight");
 	isFullScreen = iniFile->GetValueB("Graphics", "Fullscreen");
 
-	util::ScaleImage(curWorld->GetImage());
+	// Create the main player
+	player = new Player(0, PLAYER_STARTX, PLAYER_STARTY, PLAYER_PATH, screenHeight, screenWidth);
+	EntityMgr.AddEntity(player);
+
+
+	util::ScaleImage(curWorld->GetImage(), screenWidth, screenHeight);
 	// Define the window graphics
 	currentMode = sf::VideoMode(screenWidth, screenHeight);
 }
 
-//TODO Switch to an actual vector
 void Nyx::renderEntities(sf::RenderWindow * window)
 {
 	vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
@@ -156,7 +159,7 @@ void Nyx::updateGame(sf::Time elapsed)
 			tick = tick.Zero;
 	}
 	
-	// TODO Remove this from debuigging
+	//TODO: Remove this from debuigging
 	seconds += elapsed;
 	if(seconds.asSeconds() >= 1)
 	{

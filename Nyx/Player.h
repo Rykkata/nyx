@@ -1,11 +1,16 @@
 #pragma once
 #include "Entity.h"
+#include "Xbox360.h"
+
+#define MAX_HEALTH 100
+#define MOVEMENT 5
+
 class Player :
 	public Entity
 {
 public:
 	Player(int id);
-	Player(int id, float x, float y, char * image);
+	Player(int id, float x, float y, char * image, int inS, int inW);
 	~Player(void);
 	
 	sf::Sprite& GetSprite(void);
@@ -24,5 +29,7 @@ private:
 	sf::Texture m_texture;
 	State<Player>* currentState;				// Not sure if needed, but will keep it in just in case
 	unsigned int m_health;
+	int screenWidth;
+	int screenHeight;
 };
 

@@ -1,5 +1,5 @@
 #include "EntityManager.h"
-
+using namespace std;
 EntityManager& EntityManager::GetInstance(void)
 {
 	static EntityManager instance;

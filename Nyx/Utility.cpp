@@ -1,4 +1,7 @@
 #include "Utility.h"
+#include <fstream>
+
+using namespace std;
 
 namespace util
 {
@@ -9,7 +12,7 @@ namespace util
 		 return (bool)ifile;
 	}
 
-	sf::Sprite& ScaleImage(sf::Sprite& scaleSprite)
+	sf::Sprite& ScaleImage(sf::Sprite& scaleSprite, int screenWidth, int screenHeight)
 	{
 		sf::Vector2u size = scaleSprite.getTexture()->getSize();
 		float widthScale =  (float)screenWidth / (float)size.x;

@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Global.h"
+#include <SFML\Graphics.hpp>
 
 namespace util
 {
 	bool fexists(const char *filename);
-	sf::Sprite& ScaleImage(sf::Sprite& image);
+	sf::Sprite& ScaleImage(sf::Sprite& image, int screenWidth, int screenHeight);
 }

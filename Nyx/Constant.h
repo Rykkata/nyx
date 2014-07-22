@@ -13,5 +13,5 @@
 
 #define TICK_RATE 16667
 
-#define BACKGROUND_PATH "background.jpg"
+#define BACKGROUND_PATH "background.png"
 #define PLAYER_PATH "player_sprite.png"

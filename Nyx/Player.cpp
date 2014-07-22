@@ -6,7 +6,7 @@ Player::Player(int id) : Entity(id)
 	m_health = MAX_HEALTH;
 }
 
-Player::Player(int id, float x, float y, char * image) : Entity(id)
+Player::Player(int id, float x, float y, char * image, int inS, int inW) : Entity(id)
 {
 	m_pos.x = x;
 	m_pos.y = y;
@@ -19,6 +19,9 @@ Player::Player(int id, float x, float y, char * image) : Entity(id)
 	m_sprite = sf::Sprite(m_texture);
 	m_sprite.setPosition(m_pos);
 	m_health = MAX_HEALTH;
+
+	screenWidth = inW;
+	screenHeight = inS;
 }
 
 Player::~Player(void)

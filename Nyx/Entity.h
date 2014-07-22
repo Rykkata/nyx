@@ -1,7 +1,7 @@
 #pragma once
-#include "Global.h"
-#include "State.h"
 
+#include <SFML\Graphics.hpp>
+#include "State.h"
 class Entity
 {
 public:
