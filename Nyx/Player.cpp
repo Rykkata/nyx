@@ -6,7 +6,7 @@ Player::Player(int id) : Entity(id)
 	m_health = MAX_HEALTH;
 }
 
-Player::Player(int id, float x, float y, char * image, int inS, int inW) : Entity(id)
+Player::Player(int id, float x, float y, char * image, int screenWidth, int screenHeight) : Entity(id)
 {
 	m_pos.x = x;
 	m_pos.y = y;
@@ -20,8 +20,8 @@ Player::Player(int id, float x, float y, char * image, int inS, int inW) : Entit
 	m_sprite.setPosition(m_pos);
 	m_health = MAX_HEALTH;
 
-	screenWidth = inW;
-	screenHeight = inS;
+	m_screenWidth = screenWidth;
+	m_screenHeight = screenHeight;
 }
 
 Player::~Player(void)
@@ -75,7 +75,7 @@ void Player::MoveLeft(void)
 
 void Player::MoveRight(void)
 {
-	if(m_pos.x + MOVEMENT + m_width <= screenWidth)
+	if(m_pos.x + MOVEMENT + m_width <= m_screenWidth)
 		m_pos.x += MOVEMENT;
 
 	m_sprite.setPosition(m_pos);
@@ -91,7 +91,7 @@ void Player::MoveUp(void)
 
 void Player::MoveDown(void)
 {
-	if(m_pos.y + MOVEMENT + m_height <= screenHeight)
+	if(m_pos.y + MOVEMENT + m_height <= m_screenHeight)
 		m_pos.y += MOVEMENT;
 
 	m_sprite.setPosition(m_pos);

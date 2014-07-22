@@ -10,7 +10,7 @@ class Player :
 {
 public:
 	Player(int id);
-	Player(int id, float x, float y, char * image, int inS, int inW);
+	Player(int id, float x, float y, char * image, int screenWidth, int screenHeight);
 	~Player(void);
 	
 	sf::Sprite& GetSprite(void);
@@ -29,7 +29,7 @@ private:
 	sf::Texture m_texture;
 	State<Player>* currentState;				// Not sure if needed, but will keep it in just in case
 	unsigned int m_health;
-	int screenWidth;
-	int screenHeight;
+	int m_screenWidth;
+	int m_screenHeight;
 };
 
