@@ -2,11 +2,9 @@
 
 #include <SFML\Graphics.hpp>
 #include "iniFile.h"
-#include "Player.h"
 #include "World.h"
 #include "Utility.h"
 #include "EntityManager.h"
-#include "steam_api.h"
 
 using namespace std;
 
@@ -35,7 +33,5 @@ private:
 	std::vector<sf::VideoMode> fullScreens;
 	bool isFullScreen;
 	CIniFile * iniFile;
-
-	Player* player;
 	World* curWorld;
 };

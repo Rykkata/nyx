@@ -13,9 +13,11 @@ public:
 
 	int GetXCoordinate(void);
 	int GetYCoordinate(void);
-	
+
+	const virtual char* GetComponentType(void) const;
 private:
 	int m_xCoordinate;
 	int m_yCoordinate;
+	const char* TYPE = "PositionComponent";
 };
 

@@ -26,3 +26,16 @@ void SpriteComponent::SetSpriteGraphic(sf::Sprite* newSpriteGraphic)
 		m_spriteGraphic = newSpriteGraphic;
 	}
 }
+
+void SpriteComponent::LoadSpriteGraphicFromFilePath(const char* filePath)
+{
+	sf::Texture texture = sf::Texture();
+	texture.setSmooth(true);
+	texture.loadFromFile(filePath);
+	m_spriteGraphic = &sf::Sprite(texture);
+}
+
+const char* SpriteComponent::GetComponentType() const
+{
+	return TYPE;
+}

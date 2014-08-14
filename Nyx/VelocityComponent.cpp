@@ -40,3 +40,8 @@ int VelocityComponent::SetYVelocity(int newYVelocity)
 {
 	return 0;
 }
+
+const char* VelocityComponent::GetComponentType() const
+{
+	return TYPE;
+}

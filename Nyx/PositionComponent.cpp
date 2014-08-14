@@ -43,3 +43,9 @@ int PositionComponent::GetYCoordinate(void)
 {
 	return m_yCoordinate;
 }
+
+
+const char* PositionComponent::GetComponentType() const
+{
+	return TYPE;
+}

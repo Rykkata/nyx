@@ -14,15 +14,6 @@ Entity::~Entity(void)
 
 void Entity::SetID(int var)
 {
-	if(var >= m_iNextValidID)
-	{
-		m_ID = var;
-		++m_iNextValidID;
-	}
-	else
-	{
-		m_ID = m_iNextValidID++;
-	}
+	m_ID = var;
 }
 
-int Entity::m_iNextValidID = 0;

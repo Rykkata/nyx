@@ -16,7 +16,6 @@ Nyx& Nyx::GetInstance(void)
 
 Nyx::~Nyx()
 {
-	delete player;
 	delete curWorld;
 }
 
@@ -99,12 +98,6 @@ void Nyx::init()
 	// Load valid resolutions from graphcis card
 	fullScreens = sf::VideoMode::getFullscreenModes();
 
-	// Initialize the SteamAPI (WILL NOT WORK FOR NOW)
-	/**if(!SteamAPI_Init())
-	{
-		cout << "SteapAPI failed to initialize" << endl;
-	}*/
-
 	// Read in the information
 	iniFile->ReadFile();
 
@@ -117,11 +110,6 @@ void Nyx::init()
 	screenHeight = iniFile->GetValueI("Graphics", "ScreenHeight");
 	isFullScreen = iniFile->GetValueB("Graphics", "Fullscreen");
 
-	// Create the main player
-	player = new Player(0, PLAYER_STARTX, PLAYER_STARTY, PLAYER_PATH, screenHeight, screenWidth);
-	EntityMgr.AddEntity(player);
-
-
 	util::ScaleImage(curWorld->GetImage(), screenWidth, screenHeight);
 	// Define the window graphics
 	currentMode = sf::VideoMode(screenWidth, screenHeight);
@@ -129,20 +117,20 @@ void Nyx::init()
 
 void Nyx::renderEntities(sf::RenderWindow * window)
 {
-	vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
+	/*vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
 	for(; it != EntityMgr.GetEntities().end(); ++it)
 	{
 		window->draw(((*it)->GetSprite()));
-	}
+	}*/
 }
 
 void Nyx::updateEntities(void)
 {
-	vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
+	/*vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
 	for(; it != EntityMgr.GetEntities().end(); ++it)
 	{
 		(*it)->Update();
-	}
+	}*/
 }
 
 void Nyx::updateGame(sf::Time elapsed)

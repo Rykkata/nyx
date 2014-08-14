@@ -12,15 +12,6 @@ void EntityManager::AddEntity(Entity* entity)
 	entities.push_back(entity);
 }
 
-void EntityManager::UpdateEntities(void)
-{
-	vector<Entity*>::iterator it = entities.begin();
-	for(; it != entities.end(); ++it)
-	{
-		(*it)->Update();
-	}
-}
-
 Entity* EntityManager::GetEntityByID(int ID)
 {
 	vector<Entity*>::iterator it = entities.begin();

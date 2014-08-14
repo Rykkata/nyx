@@ -35,7 +35,6 @@
     <ClCompile Include="SpriteComponent.cpp" />
     <ClCompile Include="VelocityComponent.cpp" />
     <ClCompile Include="World.cpp" />
-    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Utility.cpp" />
     <ClCompile Include="Xbox360.cpp" />
   </ItemGroup>
@@ -53,7 +52,6 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="VelocityComponent.h" />
     <ClInclude Include="World.h" />
-    <ClInclude Include="Player.h" />
     <ClInclude Include="Utility.h" />
     <ClInclude Include="Xbox360.h" />
   </ItemGroup>

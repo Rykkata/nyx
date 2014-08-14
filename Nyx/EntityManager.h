@@ -10,7 +10,6 @@ public:
 	void AddEntity(Entity* entity);
 	Entity* GetEntityByID(int id);
 	std::vector<Entity*>& GetEntities(void);
-	void UpdateEntities(void);
 private:
 	EntityManager(){}
 	EntityManager(EntityManager const& copy){}
