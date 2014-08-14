@@ -32,9 +32,9 @@
     </ClCompile>
     <ClCompile Include="Nyx.cpp" />
     <ClCompile Include="PositionComponent.cpp" />
-    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="GraphicComponent.cpp" />
     <ClCompile Include="VelocityComponent.cpp" />
-    <ClCompile Include="World.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Utility.cpp" />
     <ClCompile Include="Xbox360.cpp" />
   </ItemGroup>
@@ -48,10 +48,10 @@
     <ClInclude Include="iniFile.h" />
     <ClInclude Include="Nyx.h" />
     <ClInclude Include="PositionComponent.h" />
-    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="GraphicComponent.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="VelocityComponent.h" />
-    <ClInclude Include="World.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="Utility.h" />
     <ClInclude Include="Xbox360.h" />
   </ItemGroup>

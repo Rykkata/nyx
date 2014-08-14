@@ -1,12 +1,12 @@
-#include "World.h"
+#include "Scene.h"
 
 
-World::World(void)
+Scene::Scene(void)
 {
 	background = sf::Sprite();
 }
 
-World::World(char* bgPath)
+Scene::Scene(char* bgPath)
 {
 	bgTex = sf::Texture();
 	bgTex.setSmooth(true);
@@ -14,12 +14,12 @@ World::World(char* bgPath)
 	background = sf::Sprite(bgTex);
 }
 
-World::~World(void)
+Scene::~Scene(void)
 {
 
 }
 
-sf::Sprite& World::GetImage(void)
+sf::Sprite& Scene::GetImage(void)
 {
 	return background;
 }

@@ -1,10 +1,9 @@
 #include "EntityManager.h"
 using namespace std;
-EntityManager& EntityManager::GetInstance(void)
+
+EntityManager::EntityManager()
 {
-	static EntityManager instance;
-	
-	return instance;
+	entities = std::vector<Entity*>();
 }
 
 void EntityManager::AddEntity(Entity* entity)

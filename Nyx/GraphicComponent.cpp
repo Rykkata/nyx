@@ -1,25 +1,25 @@
-#include "SpriteComponent.h"
+#include "GraphicComponent.h"
 
 
-SpriteComponent::SpriteComponent()
+GraphicComponent::GraphicComponent()
 {
 	m_spriteGraphic = new sf::Sprite();
 }
 
 
-SpriteComponent::~SpriteComponent()
+GraphicComponent::~GraphicComponent()
 {
 	delete m_spriteGraphic;
 }
 
 
-sf::Sprite* SpriteComponent::GetSpriteGraphic()
+sf::Sprite* GraphicComponent::GetGraphic()
 {
 	return m_spriteGraphic;
 }
 
 
-void SpriteComponent::SetSpriteGraphic(sf::Sprite* newSpriteGraphic)
+void GraphicComponent::SetSpriteGraphic(sf::Sprite* newSpriteGraphic)
 {
 	if (newSpriteGraphic != NULL)
 	{
@@ -27,7 +27,7 @@ void SpriteComponent::SetSpriteGraphic(sf::Sprite* newSpriteGraphic)
 	}
 }
 
-void SpriteComponent::LoadSpriteGraphicFromFilePath(const char* filePath)
+void GraphicComponent::LoadSpriteGraphicFromFilePath(const char* filePath)
 {
 	sf::Texture texture = sf::Texture();
 	texture.setSmooth(true);
@@ -35,7 +35,7 @@ void SpriteComponent::LoadSpriteGraphicFromFilePath(const char* filePath)
 	m_spriteGraphic = &sf::Sprite(texture);
 }
 
-const char* SpriteComponent::GetComponentType() const
+const char* GraphicComponent::GetComponentType() const
 {
 	return TYPE;
 }

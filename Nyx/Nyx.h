@@ -2,7 +2,7 @@
 
 #include <SFML\Graphics.hpp>
 #include "iniFile.h"
-#include "World.h"
+#include "Scene.h"
 #include "Utility.h"
 #include "EntityManager.h"
 
@@ -33,5 +33,5 @@ private:
 	std::vector<sf::VideoMode> fullScreens;
 	bool isFullScreen;
 	CIniFile * iniFile;
-	World* curWorld;
+	Scene* curWorld;
 };

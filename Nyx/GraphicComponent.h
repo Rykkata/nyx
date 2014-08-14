@@ -1,13 +1,13 @@
 #pragma once
 #include "Component.h"
 #include <SFML\Graphics.hpp>
-class SpriteComponent :
+class GraphicComponent :
 	public Component
 {
 public:
-	SpriteComponent();
-	~SpriteComponent();
-	sf::Sprite* GetSpriteGraphic();
+	GraphicComponent();
+	~GraphicComponent();
+	sf::Sprite* GetGraphic();
 	void SetSpriteGraphic(sf::Sprite* newSpriteGraphic);
 	void LoadSpriteGraphicFromFilePath(const char* filePath);
 	const virtual char* GetComponentType(void) const;

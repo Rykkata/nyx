@@ -101,7 +101,7 @@ void Nyx::init()
 	// Read in the information
 	iniFile->ReadFile();
 
-	curWorld = new World(BACKGROUND_PATH);
+	curWorld = new Scene(BACKGROUND_PATH);
 	
 	tick = tick.Zero;
 

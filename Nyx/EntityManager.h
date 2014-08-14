@@ -6,13 +6,10 @@
 class EntityManager
 {
 public:
-	static EntityManager& GetInstance(void);
+	EntityManager();
 	void AddEntity(Entity* entity);
 	Entity* GetEntityByID(int id);
 	std::vector<Entity*>& GetEntities(void);
 private:
-	EntityManager(){}
-	EntityManager(EntityManager const& copy){}
-	EntityManager& operator=(EntityManager const& copy){}
 	std::vector<Entity*> entities;
 }; 
