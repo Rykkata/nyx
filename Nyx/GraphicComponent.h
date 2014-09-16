@@ -12,6 +12,7 @@ public:
 	void SetSpriteGraphic(sf::Sprite* newSpriteGraphic);
 	void LoadSpriteGraphicFromFilePath(const char* filePath);
 	const virtual char* GetComponentType(void) const;
+	virtual void Update(void);
 private:
 	sf::Sprite* m_spriteGraphic;
 	const char* TYPE = "SpriteComponent";
