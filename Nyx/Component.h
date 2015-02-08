@@ -6,5 +6,6 @@ public:
 	Component();
 	~Component();
 	const virtual char* GetComponentType(void) const = 0;
+	void Update(void);
 };
 

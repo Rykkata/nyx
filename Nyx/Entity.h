@@ -11,9 +11,10 @@ public:
 	virtual ~Entity(void);
 	int ID()const{return m_ID;}
 	void AddComponent(Component* newComponent);
+	void UpdateComponents(void);
 private:
 	int m_ID;
 	void SetID(int ID);
-	std::unordered_map<char*, Component*> m_components;
+	std::unordered_map<const char*, Component*> m_components;
 };
 
