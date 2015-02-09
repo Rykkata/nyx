@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{bb387ee7-f3f6-4fe2-96b3-6c2827843d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Headers">
+      <UniqueIdentifier>{b25d074e-9b73-427e-a88f-0ce4a86bbb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source">
+      <UniqueIdentifier>{3d6bfb9b-3cab-47c4-9bdb-51e8f9a184e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{142e5866-b32c-44d1-97aa-d33088f3239f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Header">
+      <UniqueIdentifier>{2816648d-e38b-426c-9a2a-5fd0d0ff6911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Source">
+      <UniqueIdentifier>{b06efe5f-3a70-4163-afc9-529bf480b35d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -39,32 +57,32 @@
     <ClCompile Include="Nyx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Component.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PositionComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VelocityComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components\Source</Filter>
+    </ClCompile>
     <ClCompile Include="GraphicComponent.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Components\Source</Filter>
     </ClCompile>
-    <ClCompile Include="System.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>Components\Source</Filter>
     </ClCompile>
-    <ClCompile Include="RenderSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PhysicSystem.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="VelocityComponent.cpp">
+      <Filter>Components\Source</Filter>
     </ClCompile>
     <ClCompile Include="InputSystem.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Systems\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicSystem.cpp">
+      <Filter>Systems\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Systems\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Systems\Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -98,32 +116,32 @@
     <ClInclude Include="GameState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Component.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PositionComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VelocityComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components\Headers</Filter>
+    </ClInclude>
     <ClInclude Include="GraphicComponent.h">
-      <Filter>Header Files</Filter>
+      <Filter>Components\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="System.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Components\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="RenderSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicSystem.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="VelocityComponent.h">
+      <Filter>Components\Headers</Filter>
     </ClInclude>
     <ClInclude Include="InputSystem.h">
-      <Filter>Header Files</Filter>
+      <Filter>Systems\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Systems\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Systems\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicSystem.h">
+      <Filter>Systems\Header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
