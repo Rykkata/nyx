@@ -9,6 +9,6 @@ class RenderSystem :
 public:
 	RenderSystem();
 	~RenderSystem();
-	int Update(GraphicComponent graphic, PositionComponent position, sf::Window renderWindow); 
+	int Update(GraphicComponent graphic, PositionComponent position, sf::RenderWindow renderWindow);
 };
 
