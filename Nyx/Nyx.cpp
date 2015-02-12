@@ -115,22 +115,13 @@ void Nyx::init()
 	currentMode = sf::VideoMode(screenWidth, screenHeight);
 }
 
-void Nyx::renderEntities(sf::RenderWindow * window)
+void Nyx::updateSystems(void)
 {
-	/*vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
+	vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
 	for(; it != EntityMgr.GetEntities().end(); ++it)
 	{
-		window->draw(((*it)->GetSprite()));
-	}*/
-}
-
-void Nyx::updateEntities(void)
-{
-	/*vector<Entity*>::iterator it = EntityMgr.GetEntities().begin();
-	for(; it != EntityMgr.GetEntities().end(); ++it)
-	{
-		(*it)->Update();
-	}*/
+		Entity curEntity = *(*it);
+	}
 }
 
 void Nyx::updateGame(sf::Time elapsed)
@@ -140,7 +131,7 @@ void Nyx::updateGame(sf::Time elapsed)
 	if(tick.asMicroseconds() >= TICK_RATE)		// Handle for 60 FPS
 	{
 		tick -= sf::microseconds(TICK_RATE);
-		updateEntities();
+		updateSystems();
 		++frames;
 
 		if ( tick.asMicroseconds() / TICK_RATE > 2) // Something happened, reset it 

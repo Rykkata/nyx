@@ -19,8 +19,7 @@ private:
 	Nyx(Nyx const& copy){}
 	Nyx& operator=(Nyx const& copy){}
 	void createINIFile(void);
-	void renderEntities(sf::RenderWindow * window);
-	void updateEntities(void);
+	void updateSystems(void);
 	void updateGame(sf::Time elapsed);
 	void init(void);
 
