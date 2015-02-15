@@ -7,8 +7,10 @@ class RenderSystem :
 	public System
 {
 public:
-	RenderSystem();
+	static RenderSystem& GetInstance(void);
 	~RenderSystem();
 	int Update(GraphicComponent graphic, PositionComponent position, sf::RenderWindow renderWindow);
+private:
+	RenderSystem();
 };
 

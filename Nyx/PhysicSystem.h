@@ -6,8 +6,10 @@ class PhysicSystem :
 	public System
 {
 public:
-	PhysicSystem();
+	static PhysicSystem& GetInstance(void);
 	~PhysicSystem();
 	void Update(PositionComponent position, VelocityComponent velocity, float delta);
+private:
+	PhysicSystem();
 };
 

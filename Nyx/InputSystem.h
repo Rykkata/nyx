@@ -5,8 +5,10 @@ class InputSystem :
 	public System
 {
 public:
-	InputSystem();
+	static InputSystem& GetInstance(void);
 	~InputSystem();
 	void ReadMessage(sf::Event message);
+private:
+	InputSystem();
 };
 
