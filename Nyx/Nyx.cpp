@@ -73,7 +73,7 @@ void Nyx::RunGame(void)
         window.clear();
 		ticks++;
 		window.draw(curWorld->GetImage());
-		renderEntities(&window);
+//		renderEntities(&window);
         window.display();
     }
 }

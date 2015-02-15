@@ -3,6 +3,7 @@
 #include "EntityManager.h"
 #include "GraphicComponent.h"
 #include "PositionComponent.h"
+
 class Scene
 {
 public:
@@ -11,7 +12,6 @@ public:
 	~Scene(void);
 	sf::Sprite& GetImage(void);
 private:
-	EntityManager m_entities;
 	sf::Texture bgTex;
 	sf::Sprite background;
 };
